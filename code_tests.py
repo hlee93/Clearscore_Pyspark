@@ -3,8 +3,8 @@ from pyspark.sql import SparkSession
 import clearscore_calculations
 
 #Test JSON files
-account_example = 'clearscore_test/account_example.json'
-report_example = 'clearscore_test/report_example.json'
+account_example = 'account_example.json'
+report_example = 'report_example.json'
 
 #Create spark fixture to ensure spark sessions isolated.
 @pytest.fixture(scope="session")
